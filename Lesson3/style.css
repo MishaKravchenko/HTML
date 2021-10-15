@@ -173,3 +173,160 @@ g{
 .block9:hover{
     opacity: 10%;
 }
+/*КАРТИНКА З ФЛЕКСБОКСАМИ*/
+/*___________________ХЕДЕР_______________________*/
+.pink{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    margin-top:20px;
+    background: pink;
+}
+
+.white{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height:200px;
+    background: white;
+    margin-top:150px;
+}
+.black{
+    width: 70%;
+    height:150px;
+    background: #000000;
+}
+/*___________________МЕНЮ_______________________*/
+.grey{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    background: grey;
+}
+.red,.orange,.blue,.yellow{
+    width: 25%;
+    height: 300px;
+}
+.red{
+    background: red;
+}
+.orange{
+    background:orange;
+}
+.blue{
+    background:deepskyblue;
+}
+.yellow{
+    background:yellow;
+}
+/*_______________Основні батьки мейну_________________________*/
+.empty_block{
+    height: 700px;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+.darkgreen,.darkorange,.darkblue{
+    height: 700px ;
+    width: 33%;
+}
+.darkgreen{
+    background: darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.darkorange{
+    background: darkorange;
+}
+.darkblue{
+    background: darkblue;
+}
+/*_______________Перший з мейну______________________*/
+.b1{
+    height: 80%;
+    width: 70%;
+    background: #a600ff;
+    display: flex;
+    flex-wrap: wrap;
+}
+.b2{
+    width: 100%;
+    height: 15%;
+    background: orange;
+}
+.b3,.b4{
+    width: 50%;
+    height: 85%;
+}
+.b3{
+    background: pink;
+}
+.b4{
+    background: yellow;
+}
+/*____________________Другий з мейну______________________*/
+.darkorange{
+    display: flex;
+    flex-wrap: wrap;
+}
+.b5{
+    width: 100%;
+    height: 20%;
+    background: deepskyblue;
+}
+.b6{
+    width: 35%;
+    height: 80%;
+    background: red;
+}
+.b7{
+    width: 65%;
+    height: 80%;
+    background: orange;
+    display: flex;
+    flex-direction: column;
+}
+.b8{
+    width: 60%;
+    height: 10%;
+    background: yellow;
+}
+.b9{
+    width: 20%;
+    height: 50%;
+    background: yellow;
+    align-self: center;
+}
+.b10{
+    width: 20%;
+    height: 50%;
+    background: red;
+    align-self: center;
+}
+/*____________________Третій з мейну______________________*/
+.darkblue{
+    display: flex;
+    align-content: space-between;;
+}
+.b11,.b12,.b13{
+    height: 35%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.b11{
+    background: #a600ff;
+    align-self: end;
+}
+.b12{
+    background: #ffe800;
+    align-self: center;
+}
+.b13{
+    background: #ff6a00;
+}
