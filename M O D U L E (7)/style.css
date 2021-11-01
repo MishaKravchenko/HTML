@@ -128,41 +128,41 @@ nav{
 }
 
 .container{
-margin-top: 20px;
+    margin-top: 20px;
 }
 
 .logo{
-height: 71px;
-margin-right: 15px;
+    height: 71px;
+    margin-right: 15px;
 }
 .logo_title{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 28px;
-color: black;
-padding-left:5px ;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: black;
+    padding-left:5px ;
 }
 
 .logo_subtitle{
-font-family: 'Roboto', sans-serif;    font-style: normal;
-font-weight: 500;
-font-size: 13px;
-line-height: 14px;
-color: black;
-padding-left:5px ;
+    font-family: 'Roboto', sans-serif;    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 14px;
+    color: black;
+    padding-left:5px ;
 }
 .intro_item1{
-display: flex;
-justify-content: space-between;
-width: 22%;
+    display: flex;
+    justify-content: space-between;
+    width: 22%;
 }
 
 .logo_text{
-display: flex;
-flex-flow: column;
-justify-content: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
 }
 /*---BLOCK2(TIME)---*/
 .intro_item2{
@@ -315,18 +315,19 @@ justify-content: center;
 
 /*---carousel icon background avt-zap---*/
 
-.container_main{
+.container_main {
     max-width: 1350px;
-    margin:20px auto;
+    margin: 20px auto;
     width: 100%;
     display: flex;
-
 
 }
 .main_inner{
     width: 85%;
 }
+.carousel-item{
 
+}
 .background_div{
     background: #6D8AD4;
     overflow: hidden;
@@ -339,7 +340,7 @@ justify-content: center;
 }
 .carousel-inner{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     padding-right: 25px;
 }
 
@@ -369,12 +370,22 @@ justify-content: center;
 }
 
 /*---text button---*/
-.main_text{
+.main_text {
     position: absolute;
     top: 80px;
     left: 150px;
-
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
 }
+.carousel .slide .main_item1 .background_div{
+    display: flex;
+    justify-content: end;
+}
+.test_img{
+padding-left: 50%;
+}
+
 .main_title{
     font-style: normal;
     font-weight: 500;
@@ -416,10 +427,12 @@ justify-content: center;
     display: flex;
     align-items: center;
     margin-top: 10px;
+    width: 160px;
 
 }
 .btn_img{
     height: 30px;
+    padding-right: 10px;
 }
 /*---BLOCK2(SALE TOP)---*/
 /*---structure---*/
@@ -545,4 +558,7 @@ justify-content: center;
 
 .category_img{
     height: 200px;
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 10%;
 }
