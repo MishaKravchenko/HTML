@@ -60,7 +60,6 @@ nav{
     max-width: 1350px;
     margin: 0 auto;
     width: 100%;
-
 }
 .location_img{
     height: 20px;
@@ -68,24 +67,40 @@ nav{
 .location_block{
     display: flex;
     justify-content: start;
+    color: white;
+}
+.location_block:hover{
+    color: white;
 }
 .nav_inner{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #0F2438;
     padding: 7px 0;
     width: 100%;
+}
+.nav-link:focus, .nav-link:hover{
+    color: white;
+}
+.info_drop{
+    color: white;
+}
+.info_drop:hover{
+    color: white;
+}
+.dropdown-item{
+    color: black;
 }
 /*---L E F T---*/
 
 .nav_left{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 40%;
 }
-.nav_left a{
-    color: white;
-}
+
 /*---R I G H T---*/
 .nav_right{
     display: flex;
