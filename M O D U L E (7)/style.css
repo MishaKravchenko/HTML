@@ -560,3 +560,47 @@ padding-left: 50%;
 .carousel-control-next, .carousel-control-prev{
     width: 10%;
 }
+/*---T R E N D---*/
+.container_trend{
+    max-width: 1350px;
+    margin:0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+
+}
+.btn_trend{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    background: #005BB9;
+    border-radius: 6px;
+    width: 100%;
+    margin: 20px 0;
+    height: 55px;
+
+
+}
+.btn_trend2{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color:#005BB9 ;
+    border-radius: 6px;
+    width: 100%;
+    background-color: white;
+    height: 55px;
+}
+.trend_item{
+    margin-right: 20px;
+}
+.btn_trend2:hover{
+    background-color:#005BB9 ;
+}
