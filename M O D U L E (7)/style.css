@@ -770,17 +770,16 @@ nav {
 .container_news {
 
     max-width: 1350px;
-    margin: 0 auto;
+    margin: 0 auto 170px auto;
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 0;
     flex-wrap: wrap;
 }
 
 .news_inner {
-    width: 25%;
+    width: 22%;
     display: flex;
     flex-flow: column wrap;
 }
@@ -852,4 +851,131 @@ nav {
     text-decoration-line: underline;
     color: #005BB9;
     margin-bottom: 20px;
+}
+/*---F O O T E R---*/
+/*---structure1---*/
+.footer{
+    background-color: #0C1A2A;;
+    padding: 40px;
+}
+.container_footer{
+    max-width: 1350px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    flex-wrap: wrap;
+    height: 400px;
+
+}
+.footer_inner{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_item{
+    display: flex;
+    flex-flow: column;
+    margin-right:30px;
+
+}
+.footer_item1{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin: 0 0 40px 110px;
+}
+.footer_item2{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin: 0 0 40px 0;
+}
+
+
+/*---text---*/
+.footer_title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #868DAC;
+    margin-bottom: 20px;
+}
+.footer_subtitle{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.footer_subtitle1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.footer_subtitle2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.footer_other{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #858CAB;
+}
+/*---input_button---*/
+.email_input{
+    background-color: #0C1A2A;
+
+}
+.input-group>.form-control{
+    flex: none;
+    width: 400px;
+}
+.email{
+    margin: 0 0 40px 60px;
+    display: flex;
+    justify-content: end;
+}
+.email_button{
+    background: #005BB9;
+    border-radius: 0 6px 6px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0 50px ;
+}
+
+/*---footer_nav---*/
+.footer_item7{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+.footer_nav{
+    display: flex;
+    justify-content: end;
+}
+/*---structure2---*/
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_item3{
+    margin: 0 0 40px 110px;
+}
+.subscribe{
+    margin: 0 0 20px 110px;
 }
