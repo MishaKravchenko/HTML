@@ -31,8 +31,9 @@
             <div class="nav_inner">
                 <div class="nav_left">
 
-                    <a class="location_block" href="#"><img class="location_img" src="image/icon/location_white.svg"
-                                                            alt="">Ваш город: Москва</a>
+                    <a class="location_block dropdown-toggle test" href="#"><img class="location_img"
+                                                                                 src="image/icon/location_white.svg"
+                                                                                 alt="">Ваш город: Москва</a>
 
                     <a class="nav-link dropdown-toggle info_drop" href="#" id="navbarDropdownMenuLink"
                        data-bs-toggle="dropdown" aria-expanded="false">
@@ -63,6 +64,21 @@
                     <a href="#">О магазине</a>
                     <a href="#">Контакты</a>
                 </div>
+
+                <a class="nav-link dropdown-toggle info_drop nav_right_mobile" href="#"
+                   data-bs-toggle="dropdown" aria-expanded="false">
+                    Ещё
+                </a>
+                <ul class="dropdown-menu info_menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Доставка</a></li>
+                    <li><a class="dropdown-item" href="#">Оплата</a></li>
+                    <li><a class="dropdown-item" href="#">Гарантия</a></li>
+                    <li><a class="dropdown-item" href="#">Новости</a></li>
+                    <li><a class="dropdown-item" href="#">Журнал</a></li>
+                    <li><a class="dropdown-item" href="#">О магазине</a></li>
+                    <li><a class="dropdown-item" href="#">Контакты</a></li>
+                </ul>
+
             </div>
         </div>
     </nav>
@@ -251,37 +267,96 @@
     <!--C A T E G O R Y-->
     <div id="carouselWithControls" class="container carousel slide" data-bs-ride="carousel">
         <div class="category_inner carousel-inner">
-            <div class="category_item ">
-                <div class="category_text">
-                    <p class="category_title">Масла</p>
-                    <p class="category_subtitle">Трансмиссионное масло;
-                        присалка в масло акпп</p>
-                    <button type="button" class="btn btn-primary btn_link">Перейти</button>
+            <div class="carousel-item active category_flex">
+                <div class="category_item">
+                    <div class="category_text">
+                        <p class="category_title">Масла</p>
+                        <p class="category_subtitle">Трансмиссионное масло;
+                            присалка в масло акпп</p>
+                        <button type="button" class="btn btn-primary btn_link">Перейти</button>
+                    </div>
+                    <div class="category_img"><img src="image/avt_zap/avt-zap4.png" alt=""></div>
                 </div>
-                <div class="category_img"><img src="image/avt_zap/avt-zap4.png" alt=""></div>
-            </div>
-        </div>
-        <div class="category_inner">
-            <div class="category_item">
-                <div class="category_text ">
-                    <p class="category_title">Фильтры</p>
-                    <p class="category_subtitle">Масляный фильтр;
-                        фильтр воздушный</p>
-                    <button type="button" class="btn btn-primary btn_link">Перейти</button>
+                <div class="category_item">
+                    <div class="category_text">
+                        <p class="category_title">Фильтры</p>
+                        <p class="category_subtitle">Масляный фильтр;
+                            фильтр воздушный</p>
+                        <button type="button" class="btn btn-primary btn_link">Перейти</button>
+                    </div>
+                    <div class="category_img"><img src="image/avt_zap/avt-zap5.png" alt=""></div>
                 </div>
-                <div class="category_img"><img src="image/avt_zap/avt-zap5.png" alt=""></div>
-            </div>
-        </div>
-        <div class="category_inner">
-            <div class="category_item">
-                <div class="category_text">
-                    <p class="category_title">Радиаторы</p>
-                    <p class="category_subtitle">Дополнительные
-                        радиаторы</p>
-                    <button type="button" class="btn btn-primary btn_link">Перейти</button>
+                <div class="category_item">
+                    <div class="category_text">
+                        <p class="category_title">Радиаторы</p>
+                        <p class="category_subtitle">Дополнительные
+                            радиаторы</p>
+                        <button type="button" class="btn btn-primary btn_link">Перейти</button>
+                    </div>
+                    <div class="category_img"><img src="image/avt_zap/avt-zap6.png" alt=""></div>
                 </div>
-                <div class="category_img"><img src="image/avt_zap/avt-zap6.png" alt=""></div>
             </div>
+
+            <div class="carousel-item category_flex">
+                <div class="category_item">
+                    <div class="category_text">
+                        <p class="category_title">Масла</p>
+                        <p class="category_subtitle">Трансмиссионное масло;
+                            присалка в масло акпп</p>
+                        <button type="button" class="btn btn-primary btn_link">Перейти</button>
+                    </div>
+                    <div class="category_img"><img src="image/avt_zap/avt-zap4.png" alt=""></div>
+                </div>
+                <div class="category_item">
+                    <div class="category_text">
+                        <p class="category_title">Фильтры</p>
+                        <p class="category_subtitle">Масляный фильтр;
+                            фильтр воздушный</p>
+                        <button type="button" class="btn btn-primary btn_link">Перейти</button>
+                    </div>
+                    <div class="category_img"><img src="image/avt_zap/avt-zap5.png" alt=""></div>
+                </div>
+                <div class="category_item">
+                    <div class="category_text">
+                        <p class="category_title">Радиаторы</p>
+                        <p class="category_subtitle">Дополнительные
+                            радиаторы</p>
+                        <button type="button" class="btn btn-primary btn_link">Перейти</button>
+                    </div>
+                    <div class="category_img"><img src="image/avt_zap/avt-zap6.png" alt=""></div>
+                </div>
+
+            </div>
+            <div class="carousel-item category_flex">
+                <div class="category_item">
+                    <div class="category_text">
+                        <p class="category_title">Масла</p>
+                        <p class="category_subtitle">Трансмиссионное масло;
+                            присалка в масло акпп</p>
+                        <button type="button" class="btn btn-primary btn_link">Перейти</button>
+                    </div>
+                    <div class="category_img"><img src="image/avt_zap/avt-zap4.png" alt=""></div>
+                </div>
+                <div class="category_item">
+                    <div class="category_text">
+                        <p class="category_title">Фильтры</p>
+                        <p class="category_subtitle">Масляный фильтр;
+                            фильтр воздушный</p>
+                        <button type="button" class="btn btn-primary btn_link">Перейти</button>
+                    </div>
+                    <div class="category_img"><img src="image/avt_zap/avt-zap5.png" alt=""></div>
+                </div>
+                <div class="category_item">
+                    <div class="category_text">
+                        <p class="category_title">Радиаторы</p>
+                        <p class="category_subtitle">Дополнительные
+                            радиаторы</p>
+                        <button type="button" class="btn btn-primary btn_link">Перейти</button>
+                    </div>
+                    <div class="category_img"><img src="image/avt_zap/avt-zap6.png" alt=""></div>
+                </div>
+            </div>
+
         </div>
         <div>
             <a class="carousel-control-prev" href="#carouselWithControls" role="button" data-bs-slide="prev">
@@ -294,6 +369,7 @@
             </a>
         </div>
     </div>
+
     <!--T R E N D-->
     <div class="trend">
         <div class="container_trend">
@@ -545,42 +621,43 @@
             <div class="footer_item4">
 
 
-                    <div class="footer_top">
-                        <div class="footer_item5">
-                            <a class="footer_title" href="#">КОНТАКТЫ</a>
-                            <a class="footer_subtitle2" href="#">+7 383 291 92 86</a>
-                            <a class="footer_subtitle2" href="#">info@avt-zap.ru</a>
-                        </div>
-                        <div class="footer_item6">
-                            <a class="footer_title" href="#">АДРЕС</a>
-                            <a class="footer_subtitle2" href="#">г. Новосибирск</a>
-                            <a class="footer_subtitle2" href="#">ул. Планировочная, 5, офис 105</a>
+                <div class="footer_top">
+                    <div class="footer_item5">
+                        <a class="footer_title" href="#">КОНТАКТЫ</a>
+                        <a class="footer_subtitle2" href="#">+7 383 291 92 86</a>
+                        <a class="footer_subtitle2" href="#">info@avt-zap.ru</a>
+                    </div>
+                    <div class="footer_item6">
+                        <a class="footer_title" href="#">АДРЕС</a>
+                        <a class="footer_subtitle2" href="#">г. Новосибирск</a>
+                        <a class="footer_subtitle2" href="#">ул. Планировочная, 5, офис 105</a>
+                    </div>
+                </div>
+                <div class="footer_center">
+                    <div class="footer_item7">
+                        <a class="footer_other" href="#">Мы онлайн, воспользуйтесь</a>
+                        <a class="footer_subtitle2" href="#">Форма обратной связи</a>
+                    </div>
+
+                    <a class="footer_other subscribe" href="#">Подпишитесь на нашу расслыку и вы узнаете о скидках и
+                        акциях</a>
+
+                    <div class="input-group email footer_item8">
+                        <input type="text" class="form-control email_input" placeholder="Введите ваш email"
+                               aria-label="Username" aria-describedby="input-group-right">
+                        <span class="input-group-text email_button">Подписаться</span>
+                    </div>
+                </div>
+                <div class="footer_bot">
+                    <div class="footer_nav">
+                        <div class="footer_item9">
+                            <a href="#"><img src="image/icon/facebook.svg" alt="facebook"></a>
+                            <a href="#"><img src="image/icon/telegram.svg" alt="telegram"></a>
+                            <a href="#"><img src="image/icon/twitter.svg" alt="twitter"></a>
+                            <a href="#"><img src="image/icon/gmail.svg" alt="gmail"></a>
                         </div>
                     </div>
-                    <div class="footer_center">
-                        <div class="footer_item7">
-                            <a class="footer_other" href="#">Мы онлайн, воспользуйтесь</a>
-                            <a class="footer_subtitle2" href="#">Форма обратной связи</a>
-                        </div>
-                        <div class="footer_item8">
-                            <a class="footer_other subscribe" href="#">Подпишитесь на нашу расслыку и вы узнаете о скидках и акциях</a>
-                            <div class="input-group search email">
-                                <input type="text" class="form-control email_input" placeholder="Введите ваш email"
-                                       aria-label="Username" aria-describedby="input-group-right">
-                                <span class="input-group-text email_button">Подписаться</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer_bot">
-                            <div class="footer_nav">
-                            <div class="footer_item9">
-                                <a href="#"><img src="image/icon/facebook.svg" alt="facebook"></a>
-                                <a href="#"><img src="image/icon/telegram.svg" alt="telegram"></a>
-                                <a href="#"><img src="image/icon/twitter.svg" alt="twitter"></a>
-                                <a href="#"><img src="image/icon/gmail.svg" alt="gmail"></a>
-                            </div>
-                        </div>
-                    </div>
+                </div>
 
             </div><!--/footer_item-->
         </div><!--/footer_inner-->
@@ -588,13 +665,13 @@
     </div><!--/container_footer-->
 </footer>
 
-            <!--B O O T S T R A P-->
-            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-                    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-                    crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-                    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-                    crossorigin="anonymous"></script>
+<!--B O O T S T R A P-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
 
 
 </body>

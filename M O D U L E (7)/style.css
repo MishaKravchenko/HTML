@@ -75,8 +75,11 @@ nav {
 
 .location_block {
     display: flex;
-    justify-content: start;
+    flex-flow: row nowrap;
     color: white;
+}
+.dropdown-toggle.test::after{
+    border-top: 0;
 }
 
 .location_block:hover {
@@ -122,6 +125,9 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 50%;
+}
+.nav_right_mobile{
+    display: none;
 }
 
 .nav_right a {
@@ -305,7 +311,7 @@ nav {
 
 /*---BLOCK7(SEARCH)---*/
 .search {
-    width: 649px;
+    width: 500px;
     height: 53px;
 }
 
@@ -580,8 +586,9 @@ nav {
 
 /*---C A T E G O R Y---*/
 .category_inner {
-    width: 32.6%;
     margin-top: 40px;
+    display: flex;
+    padding: 0;
 }
 
 .category_item {
@@ -591,6 +598,11 @@ nav {
     border: 1px solid #E1E5F8;
     box-sizing: border-box;
     border-radius: 6px;
+    width: 33.33333%;
+    float: left;
+}
+.category_flex{
+    width: 100%;
 }
 
 .category_text {
@@ -941,10 +953,10 @@ nav {
 }
 .input-group>.form-control{
     flex: none;
-    width: 400px;
+    width: 280px;
 }
 .email{
-    margin: 40px 0 40px 60px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: end;
 }
@@ -976,6 +988,11 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+.footer_center{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
 .footer_item7{
     margin: 0 0 40px 110px;
 }
@@ -990,4 +1007,29 @@ nav {
     font-size: 16px;
     line-height: 20px;
     color: #737E9B;
+}
+
+/*M E D I A
+/*____________________________________________*/
+/*Ми написали медіа запрос, який буде спрацьовувати при ширині екрана 1024px і менше*/
+
+/*1250px*/
+@media (max-width: 1250px) {
+    .nav_left{
+        margin-left: 20px;
+    }
+    .nav_right {
+        display: none;
+    }
+    .nav_right_mobile{
+        display: flex;
+        margin-right: 20px;
+    }
+}
+
+/*1150px*/
+@media (max-width: 1150px) {
+    .nav_left {
+        margin-left: 20px;
+    }
 }
